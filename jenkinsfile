@@ -14,7 +14,7 @@ pipeline {
         stage('Clone CMA Application') {
             steps {
                 sh """
-                git clone git@gitlab.com:lamtech-cms/customer-management.git
+                git clone git@github.com:debaj4life/customer-management.git
                 cd customer-management
                 pwd
                 """
